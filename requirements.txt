@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+deepeval=4.1.1
+deepteam=1.0.9
+python-dotenv
+allure-pytest
+openai
+pytest
