@@ -7,7 +7,9 @@ from app.health_chatbot import health_chatbot
 
 
 def test_answer_relevancy():
-    query = "How to file a claim"
+    query = "How to file a claim",
+    "What is my benefit window?",
+    "Is dentist covered by insurance"
     output = health_chatbot(query)
 
     test_case = LLMTestCase(
