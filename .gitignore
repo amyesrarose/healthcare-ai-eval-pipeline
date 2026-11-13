@@ -1,8 +1,14 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+
+# secrets
 .env
+
+# virtual env
 .healthv/
-.deepeval/
-.pytest_cache/
+
+# python
 __pycache__/
 *.pyc
+
+# tool caches
+.pytest_cache/
+.deepeval/
